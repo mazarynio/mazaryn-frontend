@@ -1,0 +1,22 @@
+.leftPane {
+  overflow: hidden;
+}
+
+.leftPane {
+  overflow-y: scroll;
+}
+
+.leftPane::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+.leftPane:hover::-webkit-scrollbar-thumb {
+  background: #4385f5;
+}
+
+::-webkit-scrollbar {display:none;}
+
+
+.leftPane::-webkit-scrollbar {
+  width: 0.15rem;
+}

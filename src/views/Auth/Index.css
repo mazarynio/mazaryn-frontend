@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap");
+.ant-form-item-label > label {
+  font-weight: 600;
+  font-family: "Nunito", sans-serif;
+}
+
+.container {
+  background: #ffffff;
+  box-shadow: 0px 10px 20px rgba(112, 144, 176, 0.25);
+  border-radius: 20px;
+  padding: 60px;
+}
+
+.intrest_container {
+  background: #ffffff;
+  box-shadow: 0px 10px 20px rgba(112, 144, 176, 0.25);
+  border-radius: 20px;
+  padding: 60px;
+  align-items: center;
+  max-width: 1162px;
+}
+
+.custom_block {
+  max-width: 1162px;
+}
+
+.subtitle {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  color: #5d5f63;
+}
+
+.page-name {
+  font-family: "Poppins";
+  font-weight: 900;
+  font-size: 22px;
+}
+
+.ant-input {
+  height: 48px;
+  font-family: "Inter";
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 0.9)
+    ),
+    #d2d2d1;
+  border: 2px solid #d2d2d1;
+  box-sizing: border-box;
+  border-radius: 10px;
+  height: 48px;
+  font-family: "Inter";
+}
+
+input {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 0.9)
+    ),
+    #d2d2d1;
+  border: 2px solid #d2d2d1;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #4385f5;
+}
+
+.custom_checkbox {
+  font-family: "Inter";
+}
+
+.custom_width{
+  width: 60%;
+}
+
+.ant-input:focus,
+.ant-input-focused {
+  border-color: #4385f5;
+  border-right-width: 1px !important;
+  box-shadow: none;
+}
+
+.custom_label {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 600;
+}
+.chat-logo {
+  font-family: "Hind", sans-serif;
+}
+
+.btn {
+  font-family: "Nunito", sans-serif;
+}
+
+.forgot_password {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.custom_text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.custom_button {
+  box-shadow: 0px 10px 20px rgba(112, 144, 176, 0.12);
+  border-radius: 20px;
+  padding: 26px 30px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.custom_button2 {
+  box-shadow: 0px 10px 20px rgba(112, 144, 176, 0.12);
+  border-radius: 20px;
+  padding: 26px 30px;
+  background: #4385f5;
+  transition: 0.3s;
+  color: white;
+  cursor: pointer;
+}
+
+.button_text {
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.custom_div {
+  margin-left: -17px;
+}

@@ -1,0 +1,178 @@
+
+
+.container {
+  background: #ffffff;
+  box-shadow: 0px 10px 20px rgba(112, 144, 176, 0.12);
+  border-radius: 20px;
+  padding: 30px;
+}
+.main {
+  margin-top: 6rem;
+}
+.icons {
+    margin-top: 10px;
+}
+
+.ant-input:focus {
+    border-color: #4385f5;
+    border-bottom: 1px solid #4385f5;   
+}
+
+.post-container {
+  background: #ffffff;
+  box-shadow: 0px 10px 20px rgba(112, 144, 176, 0.12);
+  border-radius: 20px;
+  padding: 30px;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.post-container:last-child {
+  margin-bottom: 2rem;
+}
+
+/* post head row (profile pic, name, views, 3 dot menu */
+.p-head-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.p-profile-picture {
+  height: 40px;
+  border-radius: 100%;
+  width: 40px;
+}
+
+.p-username-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
+  text-align: left;
+  margin-left: 15px;
+}
+
+.p-username {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Poppins';
+  margin-top: 0px;
+  line-height: 1.2;
+}
+
+.p-date {
+  font-family: 'Poppins';
+  line-height: 1.2;
+  margin-top: 5px;
+  font-size: 14px;
+  color: #aaaaaa;
+}
+
+.p-views {
+  /* margin-top: 5px; */
+  font-family: 'Poppins';
+  font-size: 16px;
+  color: #aaaaaa;
+}
+
+.p-text {
+  text-align: left;
+  white-space: break-spaces;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-family: 'Poppins';
+  font-size: 16px;
+}
+
+.p-image img {
+  border-radius: 20px;
+  width: 100%;
+}
+
+.p-controls {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.p-controls-left {
+  display: flex;
+  flex-direction: row;
+}
+
+.p-controls-right {
+  display: flex;
+  flex-direction: row;
+}
+
+.p-control {
+  display: flex;
+  flex-direction: row;
+  margin-right: 50px;
+}
+
+.p-control-value {
+  font-size: 16px;
+  font-family: 'Poppins';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1;
+  margin-top: 7px;
+  margin-left: 0.5rem;
+}
+
+.p-control-dislike img {
+  margin-bottom: -5px;
+}
+
+.p-control-comment img {
+  margin-bottom: -5px;
+}
+
+
+.p-control-dollar {
+  margin: 0;
+}
+
+.p-view-comments {
+  text-align: left;
+    font-size: 16px;
+    font-family: 'Poppins';
+    color: #4385F5;
+    margin-top: 2rem;
+
+    border-bottom: 1px solid #e7e7e7;
+    padding-bottom: 2rem;
+}
+
+.p-comment-box-row {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.p-cb-pfp {
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+}
+
+.p-cb-input {
+  margin-left: 2rem;
+  width: 100%;
+  font-size: 16px;
+  outline: none;
+  font-family: 'Poppins';
+}
+
+.ant-upload-select-picture-card i {
+  font-size: 32px;
+  color: #999;
+}
+
+.ant-upload-select-picture-card .ant-upload-text {
+  margin-top: 8px;
+  color: #666;
+}

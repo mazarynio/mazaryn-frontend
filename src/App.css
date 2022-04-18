@@ -1,0 +1,23 @@
+
+.App{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+p{
+    font-size: 15px;
+}
+
+/* .body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top:84px;
+    font-size: 15px;
+} */
+
+/*
+.body{
+    position: absolute;
+    top: 79.5px;
+}
+*/

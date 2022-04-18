@@ -1,0 +1,19 @@
+#view {
+  background-color: #fafafa;
+}
+
+.section {
+  width: 100%;
+  /*
+    height: 85%;
+    padding: 0 1.875rem;
+    padding-top: 4.75rem;
+    */
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+#middle {
+  width: 50%;
+}

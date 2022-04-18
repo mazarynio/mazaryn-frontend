@@ -1,0 +1,51 @@
+.postButton{
+    height: 2.5rem;
+    width: 10.4375rem;
+    border-radius: 64px;
+    padding-left: 10px;
+    margin-right: 5%;
+    background-color: #0AB97A;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    border-style: none;
+}
+
+#popup-2{
+    width: 37.5rem;
+    height: 17.875rem;
+    border-radius: 0.9375rem;
+}
+
+.popupForm{
+    width: 90%;
+    height: 80%;
+    margin: 0 auto;
+}
+
+.popupForm textarea{
+    width: 100%;
+    height: 80%;
+    border: none;
+    outline: none;
+    resize: none;
+    color: rgba(0, 0, 0, 70%);
+}
+
+.popupFormBtns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.popupFormBtns svg {
+    cursor: pointer;
+}
+
+.cardTitle{
+    font-size: 0.9375rem;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 1.1875rem;
+}
